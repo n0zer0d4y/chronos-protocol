@@ -1,0 +1,48 @@
+[project]
+name = "chronos-protocol"
+version = "1.6.0"
+description = "MCP server providing time intelligence, persistent memory and complete traceability for AI coding agents"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+    { name = "Lloyd Barcatan", email = "lloydbarcatan@proton.me" },
+]
+keywords = ["time", "timezone", "mcp", "llm", "logging", "activity-tracking", "chronos-protocol"]
+license = { text = "MIT" }
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: System :: Logging",
+    "Topic :: Utilities",
+]
+dependencies = [
+    "mcp>=1.13.1",
+    "pydantic>=2.11.7",
+    "tzdata>=2025.2",
+    "tzlocal>=5.3.1",
+    "jsonschema>=4.25.0",
+    "shortuuid>=1.0.13"
+]
+
+[project.scripts]
+chronos-protocol = "chronos_protocol:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.uv]
+dev-dependencies = [
+    "freezegun>=1.5.1",
+    "pyright>=1.1.389",
+    "pytest>=8.3.3",
+    "ruff>=0.8.1",
+]
