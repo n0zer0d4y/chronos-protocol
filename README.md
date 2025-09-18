@@ -145,6 +145,8 @@ Chronos Protocol supports dual storage modes to fit your development workflow:
 
 Chronos Protocol's activity logging system provides persistent memory for AI frameworks like [Claude Task Master](https://github.com/eyaltoledano/claude-task-master), [Agent OS](https://github.com/buildermethods/agent-os), and [BMAD Method](https://github.com/bmad-code-org/BMAD-METHOD), enabling enhanced task tracking, centralized activity logging, and historical analysis with persistent Activity IDs across agent operations.
 
+**Integration Guide**: For AI coding agents, refer to the sample prompt template in `AGENTS.md` which provides Cursor Rules that can be integrated with your existing workflow rules. This template demonstrates the complete activity logging protocol with customizable task list filename patterns.
+
 #### Persistent Memory Benefits
 
 - **Cross-Session Continuity**: Tasks started in one session can be tracked and completed in another
@@ -163,7 +165,7 @@ Chronos Protocol's activity logging system provides persistent memory for AI fra
 
 ```bash
 # 1. Clone the repository
-git clone <repository-url>
+git clone https://github.com/n0zer0d4y/chronos-protocol.git
 cd chronos-protocol
 
 # 2. Install dependencies
@@ -674,7 +676,7 @@ python -m chronos_protocol --verbose
 
 ```bash
 # Fork and clone
-git clone https://github.com/your-username/chronos-protocol.git
+git clone https://github.com/n0zer0d4y/chronos-protocol.git
 cd chronos-protocol
 
 # Set up development environment
@@ -719,7 +721,7 @@ When adding support for new MCP clients:
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/n0zer0d4y/chronos-protocol/blob/master/LICENSE) file for details.
 
 ## Acknowledgments
 
