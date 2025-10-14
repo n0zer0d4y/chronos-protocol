@@ -7,6 +7,10 @@
 [![MCP Server](https://badge.mcpx.dev?type=server "MCP Server")](https://modelcontextprotocol.io)
 [![MCP Server with Tools](https://badge.mcpx.dev?type=server&features=tools "MCP server with tools")](https://modelcontextprotocol.io)
 
+<a href="https://glama.ai/mcp/servers/@n0zer0d4y/chronos-protocol">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/@n0zer0d4y/chronos-protocol/badge" />
+</a>
+
 > MCP server providing time intelligence, persistent memory and complete traceability for AI coding agents.
 
 Chronos Protocol transforms AI development workflows by eliminating temporal blindness in automated systems. The MCP server provides complete traceability and session continuity, enabling AI agents to maintain context across sessions while delivering enterprise-grade time tracking, intelligent scheduling, and comprehensive development analytics.
